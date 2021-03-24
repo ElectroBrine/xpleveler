@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "com",
+  "version": "${version}",
+  "name": "XPleveler",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/com/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "electro_brine.com.client.ComClient"
+    ],
+    "main": [
+      "electro_brine.com.Com"
+    ]
+  },
+  "mixins": [
+    "com.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}

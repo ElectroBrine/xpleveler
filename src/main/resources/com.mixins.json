@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "electro_brine.com.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "XPkills",
+    "AdventureXPMixin",
+    "AdventurelvlMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
